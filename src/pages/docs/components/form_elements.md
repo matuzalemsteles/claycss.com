@@ -16,7 +16,7 @@ weight: 100
 		Default text input
 		<span class="reference-mark">
 			<svg class="lexicon-icon">
-				<use xlink:href="/images/icons/icons.svg#asterisk" />
+				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</span>
 	</label>
@@ -39,7 +39,7 @@ weight: 100
 		Default text input
 		<span class="reference-mark">
 			<svg class="lexicon-icon">
-				<use xlink:href="/images/icons/icons.svg#asterisk" />
+				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</span>
 	</label>
@@ -64,7 +64,7 @@ weight: 100
 
 ### Checkboxes and Radios
 
-#### Checkboxes
+##### Checkboxes
 
 <div class="form-check">
 	<label class="form-check-label">
@@ -136,7 +136,7 @@ weight: 100
 </div>
 ```
 
-#### Radio Buttons
+##### Radio Buttons
 
 <div class="form-check">
 	<label class="form-check-label">
