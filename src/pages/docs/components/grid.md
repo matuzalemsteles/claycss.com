@@ -17,27 +17,25 @@ weight: 100
 
 ### Container Fluid
 
-> Use classes <code class="code">container-fluid-max-sm</code>, <code class="code">container-fluid-max-md</code>, <code class="code">container-fluid-max-lg</code>, <code class="code">container-fluid-max-xl</code>, and <code class="code">container-fluid-max-xxl</code> in conjunction with <code class="code">container-fluid</code> to create containers that expand to 100% width, but don't expand beyond a set width e.g 1280px.
+> Use classes `container-fluid-max-sm`, `container-fluid-max-md`, `container-fluid-max-lg`, `container-fluid-max-xl`, and `container-fluid-max-xxl` in conjunction with `container-fluid` to create containers that expand to 100% width, but don't expand beyond a set width e.g 1280px.
 
 <div class="clay-site-container-fluid-switcher">
-	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-sm content" type="button">container-fluid-max-sm (540px)</button>
-	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-md content" type="button">container-fluid-max-md (720px)</button>
-	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-lg content" type="button">container-fluid-max-lg (960px)</button>
-	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-xl content" type="button">container-fluid-max-xl (1140px)</button>
-	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-xxl content" type="button">container-fluid-max-xxl (1280px)</button>
-	<button class="btn btn-info" data-container-classes="container content" type="button">reset</button>
+	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-sm content" onclick="clickBtn(this);" type="button">container-fluid-max-sm (540px)</button>
+	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-md content" onclick="clickBtn(this);" type="button">container-fluid-max-md (720px)</button>
+	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-lg content" onclick="clickBtn(this);" type="button">container-fluid-max-lg (960px)</button>
+	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-xl content" onclick="clickBtn(this);" type="button">container-fluid-max-xl (1140px)</button>
+	<button class="btn btn-info" data-container-classes="container-fluid container-fluid-max-xxl content" onclick="clickBtn(this);" type="button">container-fluid-max-xxl (1280px)</button>
+	<button class="btn btn-info" data-container-classes="content" onclick="clickBtn(this);" type="button">reset</button>
 </div>
 
 <script>
 {literal}
-$('.clay-site-container-fluid-switcher .btn').on('click', function(event) {
+var clickBtn = function(node) {
     var container = $('.content');
-    console.log(container);
-    var data = $(this).data('container-classes');
-    consoel.log(data);
+    var data = $(node).data('container-classes');
     container.attr('class', '');
     container.addClass(data);
-});
+};
 {/literal}
 </script>
 
