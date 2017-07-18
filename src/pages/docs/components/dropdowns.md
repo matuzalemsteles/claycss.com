@@ -925,19 +925,4 @@ $('input[type="checkbox"]').change(
 </nav>
 ```
 
-```javascript
-	$('#mainContent').on(
-		'click',
-		'a',
-		function(event) {
-			event.preventDefault();
-		}
-	);
-
-	$('input[type="checkbox"]').change(
-		function(event) {
-			$(this).closest('.dropdown-item').toggleClass('active', this.checked);
-		}
-	);
-```
 </article>
