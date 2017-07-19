@@ -245,7 +245,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
 				Action
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="//vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -267,7 +267,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
 				Action
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="/vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -287,7 +287,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button class="btn btn-secondary" type="button">Action</button>
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="/vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -309,7 +309,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button class="btn btn-secondary" type="button">Action</button>
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="/vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -348,7 +348,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
 				Action
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="/vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -390,7 +390,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button class="btn btn-secondary" type="button">Action</button>
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="/vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -412,7 +412,7 @@ weight: 100
 		<div class="input-group-btn">
 			<button class="btn btn-secondary" type="button">Action</button>
 			<button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" type="button">
-				<svg aria-hidde="true" class="lexicon-icon lexicon-icon-caret-bottom">
+				<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
 					<use xlink:href="/vendor/clay/icons.svg#caret-bottom" />
 				</svg>
 			</button>
@@ -539,7 +539,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -560,7 +560,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -588,7 +588,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label Input Group Lg
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -605,7 +605,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -622,7 +622,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label Input Group Sm
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -643,7 +643,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label Input Group Lg
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -661,7 +661,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -679,7 +679,7 @@ weight: 100
 	<div class="form-group">
 		<label for="defaultLogoutPage">
 			Label Input Group Sm
-			<svg aria-hidde="true" class="lexicon-icon reference-mark">
+			<svg aria-hidden="true" class="lexicon-icon reference-mark">
 				<use xlink:href="/vendor/clay/icons.svg#asterisk" />
 			</svg>
 		</label>
@@ -722,7 +722,7 @@ weight: 100
 							<use xlink:href="/vendor/clay/icons.svg#times" />
 						</svg>
 					</button>
-					<button class="btn btn-link d-none d-md-inline-block" type="button">
+					<button class="btn btn-link d-md-inline-block d-none" type="button">
 						<svg aria-hidden="true" class="lexicon-icon lexicon-icon-search">
 							<use xlink:href="/vendor/clay/icons.svg#search" />
 						</svg>
@@ -749,7 +749,7 @@ weight: 100
 		<div class="form-group">
 			<div class="input-group input-group-inset">
 				<div class="input-group-input">
-					<input class="form-control" placeholder="Enter Email..." type="email" style="padding-right: 92px;" />
+					<input class="form-control" placeholder="Enter Email..." style="padding-right: 92px;" type="email" />
 				</div>
 				<span class="input-group-inset-item">
 					<button class="btn btn-secondary" type="button">Submit</button>
@@ -762,7 +762,7 @@ weight: 100
 					<button class="btn btn-secondary" type="button">Submit</button>
 				</span>
 				<div class="input-group-input">
-					<input class="form-control" placeholder="Enter Email..." type="email" style="padding-left: 92px;" />
+					<input class="form-control" placeholder="Enter Email..." style="padding-left: 92px;" type="email" />
 				</div>
 			</div>
 		</div>
@@ -783,7 +783,7 @@ weight: 100
 							<use xlink:href="/vendor/clay/icons.svg#times" />
 						</svg>
 					</button>
-					<button class="btn btn-link d-none d-md-inline-block" type="button">
+					<button class="btn btn-link d-md-inline-block d-none" type="button">
 						<svg aria-hidden="true" class="lexicon-icon lexicon-icon-search">
 							<use xlink:href="/vendor/clay/icons.svg#search" />
 						</svg>
@@ -811,7 +811,7 @@ weight: 100
 		<div class="form-group">
 			<div class="input-group input-group-inset">
 				<div class="input-group-input">
-					<input class="form-control" placeholder="Enter Email..." type="email" style="padding-right: 92px;" />
+					<input class="form-control" placeholder="Enter Email..." style="padding-right: 92px;" type="email" />
 				</div>
 				<span class="input-group-inset-item">
 					<button class="btn btn-secondary" type="button">Submit</button>
@@ -824,7 +824,7 @@ weight: 100
 					<button class="btn btn-secondary" type="button">Submit</button>
 				</span>
 				<div class="input-group-input">
-					<input class="form-control" placeholder="Enter Email..." type="email" style="padding-left: 92px;" />
+					<input class="form-control" placeholder="Enter Email..." style="padding-left: 92px;" type="email" />
 				</div>
 			</div>
 		</div>
