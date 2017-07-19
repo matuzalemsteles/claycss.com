@@ -665,7 +665,7 @@ weight: 100
 
 > In mobile screen sizes, style the navbar toggler like a navbar navigation item with `navbar-toggler-link`. Also use this pattern when you want the search bar to be easily accessible in both mobile and desktop.
 
-<nav class="collapse-basic-search navbar navbar-expand-md">
+<nav class="collapse-basic-search navbar navbar-expand-md" data-toggle="collapsible-search">
 	<button aria-label="Toggle navigation" class="collapsed navbar-toggler navbar-toggler-link" data-target="#navbar-collapse-d-001" data-toggle="collapse" type="button">
 		<span class="navbar-text-truncate">Message Boards</span>
 		<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
@@ -746,7 +746,7 @@ weight: 100
 	</div>
 </nav>
 
-<nav class="collapse-basic-search navbar navbar-expand-md navbar-light navbar-light-bg">
+<nav class="collapse-basic-search navbar navbar-expand-md navbar-light navbar-light-bg" data-toggle="collapsible-search">
 	<button aria-label="Toggle navigation" class="collapsed navbar-toggler navbar-toggler-link" data-target="#navbar-collapse-001" data-toggle="collapse" type="button">
 		<span class="navbar-text-truncate">Message Boards</span>
 		<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
@@ -827,7 +827,7 @@ weight: 100
 	</div>
 </nav>
 
-<nav class="collapse-basic-search navbar navbar-collapse-absolute navbar-dark navbar-dark-bg navbar-expand-md">
+<nav class="collapse-basic-search navbar navbar-collapse-absolute navbar-dark navbar-dark-bg navbar-expand-md" data-toggle="collapsible-search">
 	<button aria-label="Toggle navigation" class="collapsed navbar-toggler navbar-toggler-link" data-target="#navbar-collapse-001a" data-toggle="collapse" type="button">
 		<span class="navbar-text-truncate">Message Boards</span>
 		<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
@@ -897,7 +897,7 @@ weight: 100
 </nav>
 
 ```xml
-<nav class="collapse-basic-search navbar navbar-expand-md">
+<nav class="collapse-basic-search navbar navbar-expand-md" data-toggle="collapsible-search">
 	<button aria-label="Toggle navigation" class="collapsed navbar-toggler navbar-toggler-link" data-target="#navbar-collapse-d-001" data-toggle="collapse" type="button">
 		<span class="navbar-text-truncate">Message Boards</span>
 		<svg aria-hidden="true" class="lexicon-icon lexicon-icon-caret-bottom">
@@ -992,7 +992,7 @@ weight: 100
 
 > Use the `.navbar-expand` class on `.navbar` to preserve desktop navbar styles in mobile. It's useful when there are only one or two links in the navbar; where collapsing doesn't make sense.
 
-<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-expand">
+<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-expand" data-toggle="collapsible-search">
 	<ul class="navbar-nav">
 		<li class="nav-item">
 			<a class="active nav-link" href="#1">
@@ -1043,7 +1043,7 @@ weight: 100
 	</div>
 </nav>
 
-<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-expand navbar-light navbar-light-bg">
+<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-expand navbar-light navbar-light-bg" data-toggle="collapsible-search">
 	<ul class="navbar-nav">
 		<li class="nav-item">
 			<a class="active nav-link" href="#1">
@@ -1094,7 +1094,7 @@ weight: 100
 	</div>
 </nav>
 
-<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-dark navbar-dark-bg navbar-expand">
+<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-dark navbar-dark-bg navbar-expand" data-toggle="collapsible-search">
 	<ul class="navbar-nav">
 		<li class="nav-item">
 			<a class="active nav-link" href="#1">
@@ -1146,7 +1146,7 @@ weight: 100
 </nav>
 
 ```xml
-<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-expand">
+<nav class="collapse-basic-search collapse-basic-search-transparent navbar navbar-expand" data-toggle="collapsible-search">
 	<ul class="navbar-nav">
 		<li class="nav-item">
 			<a class="active nav-link" href="#1">
@@ -1253,13 +1253,5 @@ weight: 100
 ### Navbar Collapse Absolute
 
 > Add `navbar-collapse-absolute` to `navbar` to turn navbar-collapse from a relative positioned menu into an absolutely positioned collapsible menu.
-
-<script>
-{literal}
-$(function() {
-    $('.collapse-basic-search').collapsibleSearch();
-});
-{/literal}
-</script>
 
 </article>
