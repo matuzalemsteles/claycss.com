@@ -379,7 +379,9 @@ weight: 100
 
 <script>
 {literal}
-$('.clay-site-custom-checkbox-indeterminate').prop('indeterminate', true);
+window.onload = function() {
+	$('.clay-site-custom-checkbox-indeterminate').prop('indeterminate', true);
+}
 function injectFile(event) {
 	var target = $(event.target);
 	var path = target.val();
