@@ -29,7 +29,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters">
                     <span>This text will fill the remaining space.</span>
@@ -43,7 +43,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters">
                     <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -74,13 +74,13 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters">
                     <span>Really super insanely just incredibly long and totally not possible word. ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
                 </div>
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
             </div>
         </div>
@@ -106,7 +106,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters">
                     <span>This text will fill the remaining space.</span>
@@ -121,7 +121,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters">
                     <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -153,13 +153,13 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters">
                     <span>Really super insanely just incredibly long and totally not possible word. ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
                 </div>
                 <div class="flex-col">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col" style="background-color:aliceblue;">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters" style="background-color:antiquewhite;">
                     <span>Fills remaining space.</span>
@@ -201,7 +201,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col" style="background-color:aliceblue;">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters" style="background-color:antiquewhite;">
                     <span>Fills remaining space.</span>
@@ -225,7 +225,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col" style="background-color:aliceblue;">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-gutters" style="background-color:antiquewhite;">
                     <span>Only as wide as this text.</span>
@@ -241,7 +241,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col" style="background-color:aliceblue;">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-gutters" style="background-color:antiquewhite;">
                     <span>Only as wide as this text.</span>
@@ -265,7 +265,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col flex-col-expand" style="background-color:aliceblue;">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters" style="background-color:antiquewhite;">
                     <span>This will split the space in half.</span>
@@ -281,7 +281,7 @@ weight: 100
         <div class="card-body">
             <div class="card-row">
                 <div class="flex-col flex-col-expand" style="background-color:aliceblue;">
-                    <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                    <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                 </div>
                 <div class="flex-col flex-col-expand flex-col-gutters" style="background-color:antiquewhite;">
                     <span>This will split the space in half.</span>
@@ -369,7 +369,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</h4>
@@ -400,7 +400,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title" title="Folder 01">Folder 01</h4>
@@ -431,7 +431,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title" title="Folder 02">Folder 02</h4>
@@ -462,7 +462,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title" title="Folder 03">Folder 03</h4>
@@ -516,7 +516,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</h4>
@@ -548,7 +548,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title" title="Folder 01">Folder 01</h4>
@@ -580,7 +580,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title" title="Folder 02">Folder 02</h4>
@@ -612,7 +612,7 @@ weight: 100
 				<div class="card-body">
 					<div class="card-row">
 						<div class="flex-col">
-							<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+							<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 						</div>
 						<div class="flex-col flex-col-expand flex-col-gutters">
 							<h4 class="card-title" title="Folder 03">Folder 03</h4>
@@ -657,9 +657,9 @@ weight: 100
 <div class="col-md-6">
     <div class="card card-horizontal">
         <div class="card-row">
-            <div class="justify-content-start flex-col flex-col-expand">top</div>
+            <div class="flex-col flex-col-expand justify-content">top</div>
             <div class="flex-col flex-col-expand">middle</div>
-            <div class="justify-content-end flex-col flex-col-expand">bottom</div>
+            <div class="flex-col flex-col-expand justify-content-end">bottom</div>
         </div>
     </div>
 </div>
@@ -678,9 +678,9 @@ weight: 100
 <div class="col-md-6">
     <div class="card card-horizontal">
         <div class="card-row">
-            <div class="justify-content-start flex-col flex-col-expand">top</div>
+            <div class="flex-col flex-col-expand justify-content">top</div>
             <div class="flex-col flex-col-expand">middle</div>
-            <div class="justify-content-end flex-col flex-col-expand">bottom</div>
+            <div class="flex-col flex-col-expand justify-content-end">bottom</div>
         </div>
     </div>
 </div>
@@ -800,7 +800,7 @@ weight: 100
 
 > Use classes `card-item-first` and `card-item-last` on elements that appear at the beginning or ending of your card. It styles the border-radius to match the card's border-radius. These classes work similar to Bootstrap 4's `.card-img-top` and `.card-img-bottom` but also covers left and right.
 
-<div class="col-md-4 col-6">
+<div class="col-6 col-md-4">
 	<div class="card card-rounded" style="overflow: hidden;">
 		<div class="aspect-ratio aspect-ratio-16-to-9 card-item-first">
 			<img alt="thumbnail" src="/images/thumbnail_hot_air_ballon.jpg">
@@ -813,7 +813,7 @@ weight: 100
 	</div>
 </div>
 
-<div class="col-md-6 col-sm-12 col-12">
+<div class="col-12 col-md-6 col-sm-12">
 	<div class="card card-horizontal card-rounded">
 		<div class="align-top card-row">
 			<div class="flex-col flex-col-expand flex-col-gutters">
@@ -829,7 +829,7 @@ weight: 100
 </div>
 
 ```xml
-<div class="col-md-4 col-6">
+<div class="col-6 col-md-4">
 	<div class="card card-rounded" style="overflow: hidden;">
 		<div class="aspect-ratio aspect-ratio-16-to-9 card-item-first">
 			<img alt="thumbnail" src="/images/thumbnail_hot_air_ballon.jpg">
@@ -843,7 +843,7 @@ weight: 100
 	</div>
 </div>
 
-<div class="col-md-6 col-sm-12 col-12">
+<div class="col-12 col-md-6 col-sm-12">
 	<div class="card card-horizontal card-rounded">
 		<div class="align-top card-row">
 			<div class="flex-col flex-col-expand flex-col-gutters">
@@ -965,7 +965,7 @@ weight: 100
 			<div class="card-body">
 				<div class="card-row">
 					<div class="flex-col">
-						<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+						<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 					</div>
 					<div class="flex-col flex-col-expand flex-col-gutters">
 						<span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1044,7 +1044,7 @@ weight: 100
 			<div class="card-body">
 				<div class="card-row">
 					<div class="flex-col">
-						<span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+						<span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
 					</div>
 					<div class="flex-col flex-col-expand flex-col-gutters">
 						<span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1138,7 +1138,7 @@ weight: 100
                 <div class="card-body">
                     <div class="card-row">
                         <div class="flex-col">
-                            <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                            <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                         </div>
                         <div class="flex-col flex-col-expand flex-col-gutters">
                             <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1217,7 +1217,7 @@ weight: 100
                 <div class="card-body">
                     <div class="card-row">
                         <div class="flex-col">
-                            <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                            <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                         </div>
                         <div class="flex-col flex-col-expand flex-col-gutters">
                             <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1313,7 +1313,7 @@ weight: 100
             <div class="card-body">
                 <div class="card-row">
                     <div class="flex-col">
-                        <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                        <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                     </div>
                     <div class="flex-col flex-col-expand flex-col-gutters">
                         <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1340,7 +1340,6 @@ weight: 100
         </div>
     </div>
 </div>
-
 
 ```xml
 <div class="col-4">
@@ -1393,7 +1392,7 @@ weight: 100
             <div class="card-body">
                 <div class="card-row">
                     <div class="flex-col">
-                        <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                        <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                     </div>
                     <div class="flex-col flex-col-expand flex-col-gutters">
                         <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1487,7 +1486,7 @@ weight: 100
                 <div class="card-body">
                     <div class="card-row">
                         <div class="flex-col">
-                            <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                            <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                         </div>
                         <div class="flex-col flex-col-expand flex-col-gutters">
                             <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
@@ -1566,7 +1565,7 @@ weight: 100
                 <div class="card-body">
                     <div class="card-row">
                         <div class="flex-col">
-                            <span class="icon-folder-close-alt sticker sticker-secondary sticker-lg"></span>
+                            <span class="icon-folder-close-alt sticker sticker-lg sticker-secondary"></span>
                         </div>
                         <div class="flex-col flex-col-expand flex-col-gutters">
                             <span class="truncate-text" title="ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual">ReallySuperInsanelyJustIncrediblyLongAndTotallyNotPossibleWordButWeAreReallyTryingToCoverAllOurBasesHereJustInCaseSomeoneIsNutsAsPerUsual</span>
