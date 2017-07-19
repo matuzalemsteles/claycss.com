@@ -44,7 +44,7 @@ weight: 100
 		<input class="form-control" id="customFileText1" placeholder="Choose file..." readonly type="text">
 		<div class="input-group-btn">
 			<div class="form-file">
-				<input class="form-file-input" data-clay-site-content="#customFileText1" data-clay-site-toggle="file" id="customFile1" type="file">
+				<input class="form-file-input" data-clay-site-content="#customFileText1" data-clay-site-toggle="file" id="customFile1" onchange="injectFile(event)" type="file">
 				<button class="btn btn-secondary" tabindex="-1">Browse</button>
 			</div>
 		</div>
@@ -59,7 +59,8 @@ weight: 100
 		</div>
 		<span class="input-group-inset-item">
 			<div class="form-file">
-				<input class="form-file-input" data-clay-site-content="#customFileText2" data-clay-site-toggle="file" id="customFile2" type="file">
+				<input class="form-file-input" data-clay-site-content="#customFileText2" data-clay-site-toggle="file" id="customFile2" 
+				onchange="injectFile(event)" type="file">
 				<button class="btn btn-secondary" tabindex="-1">Browse</button>
 			</div>
 		</span>
@@ -69,7 +70,7 @@ weight: 100
 <div class="form-group">
 	<label class="form-control-label" for="customFile3">Attach File</label>
 	<div class="form-file">
-		<input class="form-file-input" data-clay-site-content="#customFileText3" data-clay-site-toggle="file" id="customFile3" type="file">
+		<input class="form-file-input" data-clay-site-content="#customFileText3" data-clay-site-toggle="file" id="customFile3" onchange="injectFile(event)" type="file">
 		<div class="input-group">
 			<span class="input-group-addon" id="inputGroupAddon02">Browse</span>
 			<input aria-describedby="inputGroupAddon02" class="form-control" id="customFileText3" placeholder="Choose file..." tabindex="-1" type="text">
@@ -81,7 +82,7 @@ weight: 100
 	<div class="form-inline">
 		<label class="form-control-label" for="customFile4">Attach File</label>
 		<div class="form-file">
-			<input class="form-file-input" data-clay-site-content="#customFileText4" data-clay-site-toggle="file" id="customFile4" type="file">
+			<input class="form-file-input" data-clay-site-content="#customFileText4" data-clay-site-toggle="file" id="customFile4" onchange="injectFile(event)" type="file">
 			<button class="btn btn-primary" tabindex="-1">Browse</button>
 		</div>
 		<input class="form-control" id="customFileText4" placeholder="Choose File..." readonly type="text">
@@ -378,12 +379,13 @@ weight: 100
 
 <script>
 {literal}
-	$('.clay-site-custom-checkbox-indeterminate').prop('indeterminate', true);
-	$('[data-clay-site-toggle="file"]').on('change', function(event) {
-		var path = $(this).val();
-		var name = path.substring(path.lastIndexOf("\\") + 1, path.length);
-		var input = $(this).data('clay-site-content');
-		$(input).val(name);
-	});
+$('.clay-site-custom-checkbox-indeterminate').prop('indeterminate', true);
+function injectFile(event) {
+	var target = $(event.target);
+	var path = target.val();
+	var name = path.substring(path.lastIndexOf("\\") + 1, path.length);
+	var input = target.data('clay-site-content');
+	$(input).val(name);
+}
 {/literal}
 </script>
