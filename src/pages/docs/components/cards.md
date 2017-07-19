@@ -38,6 +38,7 @@ weight: 100
         </div>
     </div>
 </div>
+
 <div class="col-md-6">
     <div class="card">
         <div class="card-body">
@@ -69,6 +70,7 @@ weight: 100
         </div>
     </div>
 </div>
+
 <div class="col-md-8">
     <div class="card">
         <div class="card-body">
@@ -166,6 +168,7 @@ weight: 100
     </div>
 </div>
 ```
+
 </article>
 
 <article id="2">
@@ -173,6 +176,7 @@ weight: 100
 ### Horizontal Card with flex-col-*
 
 > Use `card-row` with `flex-col-expand` and `flex-col` to create a number of custom horizontal cards. `flex-col-expand` fills the remaining space and `flex-col` is only as wide as its content inside.
+
 ```xml
 <div class="card-row">
     <div class="flex-col"></div>
@@ -213,6 +217,7 @@ weight: 100
 ```
 
 > Two `.flex-col`'s no `.flex-col-expand`.
+
 ```xml
 <div class="card-row">
     <div class="flex-col"></div>
@@ -253,6 +258,7 @@ weight: 100
 ```
 
 > Two `.flex-col-expand`'s no `.flex-col`.
+
 ```xml
 <div class="card-row">
     <div class="flex-col flex-col-expand"></div>
@@ -291,6 +297,7 @@ weight: 100
     </div>
 </div>
 ```
+
 </article>
 
 <article id="3">
@@ -298,6 +305,7 @@ weight: 100
 ### Padded Horizontal Cards
 
 > Nest `card-row` in `card-body` on to add some spacing around a horizontal card.
+
 ```xml
 <div class="card-body">
     <div class="card-row"></div>
@@ -338,6 +346,7 @@ weight: 100
     </div>
 </div>
 ```
+
 </article>
 
 <article id="4">
