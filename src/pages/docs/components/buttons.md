@@ -9,60 +9,52 @@ weight: 100
 
 ### Buttons
 
-<div style="margin-bottom:5px;">
-	<button class="btn btn-primary" type="button">Primary</button>
-	<button class="btn btn-secondary" type="button">Secondary</button>
-	<button class="btn btn-info" type="button">Info</button>
-	<button class="btn btn-success" type="button">Success</button>
-	<button class="btn btn-warning" type="button">Warning</button>
-	<button class="btn btn-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-light" type="button">Light</button>
-	</div>
-	<button class="btn btn-dark" type="button">Dark</button>
-	<button class="btn btn-link" type="button">Link</button>
+<button class="btn btn-primary" type="button">Primary</button>
+<button class="btn btn-secondary" type="button">Secondary</button>
+<button class="btn btn-info" type="button">Info</button>
+<button class="btn btn-success" type="button">Success</button>
+<button class="btn btn-warning" type="button">Warning</button>
+<button class="btn btn-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-light" type="button">Light</button>
 </div>
+<button class="btn btn-dark" type="button">Dark</button>
+<button class="btn btn-link" type="button">Link</button>
 
-<div>
-	<button class="btn btn-outline-primary" type="button">Primary</button>
-	<button class="btn btn-outline-secondary" type="button">Secondary</button>
-	<button class="btn btn-outline-info" type="button">Info</button>
-	<button class="btn btn-outline-success" type="button">Success</button>
-	<button class="btn btn-outline-warning" type="button">Warning</button>
-	<button class="btn btn-outline-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-outline-light" type="button">Light</button>
-	</div>
-	<button class="btn btn-outline-dark" type="button">Dark</button>
+<button class="btn btn-outline-primary" type="button">Primary</button>
+<button class="btn btn-outline-secondary" type="button">Secondary</button>
+<button class="btn btn-outline-info" type="button">Info</button>
+<button class="btn btn-outline-success" type="button">Success</button>
+<button class="btn btn-outline-warning" type="button">Warning</button>
+<button class="btn btn-outline-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-outline-light" type="button">Light</button>
 </div>
+<button class="btn btn-outline-dark" type="button">Dark</button>
 
 ```xml
-<div style="margin-bottom:5px;">
-	<button class="btn btn-primary" type="button">Primary</button>
-	<button class="btn btn-secondary" type="button">Secondary</button>
-	<button class="btn btn-info" type="button">Info</button>
-	<button class="btn btn-success" type="button">Success</button>
-	<button class="btn btn-warning" type="button">Warning</button>
-	<button class="btn btn-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-light" type="button">Light</button>
-	</div>
-	<button class="btn btn-dark" type="button">Dark</button>
-	<button class="btn btn-link" type="button">Link</button>
+<button class="btn btn-primary" type="button">Primary</button>
+<button class="btn btn-secondary" type="button">Secondary</button>
+<button class="btn btn-info" type="button">Info</button>
+<button class="btn btn-success" type="button">Success</button>
+<button class="btn btn-warning" type="button">Warning</button>
+<button class="btn btn-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-light" type="button">Light</button>
 </div>
+<button class="btn btn-dark" type="button">Dark</button>
+<button class="btn btn-link" type="button">Link</button>
 
-<div>
-	<button class="btn btn-outline-primary" type="button">Primary</button>
-	<button class="btn btn-outline-secondary" type="button">Secondary</button>
-	<button class="btn btn-outline-info" type="button">Info</button>
-	<button class="btn btn-outline-success" type="button">Success</button>
-	<button class="btn btn-outline-warning" type="button">Warning</button>
-	<button class="btn btn-outline-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-outline-light" type="button">Light</button>
-	</div>
-	<button class="btn btn-outline-dark" type="button">Dark</button>
+<button class="btn btn-outline-primary" type="button">Primary</button>
+<button class="btn btn-outline-secondary" type="button">Secondary</button>
+<button class="btn btn-outline-info" type="button">Info</button>
+<button class="btn btn-outline-success" type="button">Success</button>
+<button class="btn btn-outline-warning" type="button">Warning</button>
+<button class="btn btn-outline-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-outline-light" type="button">Light</button>
 </div>
+<button class="btn btn-outline-dark" type="button">Dark</button>
 ```
 
 </article>
@@ -71,60 +63,52 @@ weight: 100
 
 ### Focus State
 
-<div style="margin-bottom:10px;">
-	<button class="btn btn-primary focus" type="button">Primary</button>
-	<button class="btn btn-secondary focus" type="button">Secondary</button>
-	<button class="btn btn-info focus" type="button">Info</button>
-	<button class="btn btn-success focus" type="button">Success</button>
-	<button class="btn btn-warning focus" type="button">Warning</button>
-	<button class="btn btn-danger focus" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-light focus" type="button">Light</button>
-	</div>
-	<button class="btn btn-dark focus" type="button">Dark</button>
-	<button class="btn btn-link focus" type="button">Link</button>
+<button class="btn btn-primary focus" type="button">Primary</button>
+<button class="btn btn-secondary focus" type="button">Secondary</button>
+<button class="btn btn-info focus" type="button">Info</button>
+<button class="btn btn-success focus" type="button">Success</button>
+<button class="btn btn-warning focus" type="button">Warning</button>
+<button class="btn btn-danger focus" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-light focus" type="button">Light</button>
 </div>
+<button class="btn btn-dark focus" type="button">Dark</button>
+<button class="btn btn-link focus" type="button">Link</button>
 
-<div>
-	<button class="btn btn-outline-primary focus" type="button">Primary</button>
-	<button class="btn btn-outline-secondary focus" type="button">Secondary</button>
-	<button class="btn btn-outline-info focus" type="button">Info</button>
-	<button class="btn btn-outline-success focus" type="button">Success</button>
-	<button class="btn btn-outline-warning focus" type="button">Warning</button>
-	<button class="btn btn-outline-danger focus" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-outline-light focus" type="button">Light</button>
-	</div>
-	<button class="btn btn-outline-dark focus" type="button">Dark</button>
+<button class="btn btn-outline-primary focus" type="button">Primary</button>
+<button class="btn btn-outline-secondary focus" type="button">Secondary</button>
+<button class="btn btn-outline-info focus" type="button">Info</button>
+<button class="btn btn-outline-success focus" type="button">Success</button>
+<button class="btn btn-outline-warning focus" type="button">Warning</button>
+<button class="btn btn-outline-danger focus" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-outline-light focus" type="button">Light</button>
 </div>
+<button class="btn btn-outline-dark focus" type="button">Dark</button>
 
 ```xml
-<div style="margin-bottom:10px;">
-	<button class="btn btn-primary focus" type="button">Primary</button>
-	<button class="btn btn-secondary focus" type="button">Secondary</button>
-	<button class="btn btn-info focus" type="button">Info</button>
-	<button class="btn btn-success focus" type="button">Success</button>
-	<button class="btn btn-warning focus" type="button">Warning</button>
-	<button class="btn btn-danger focus" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-light focus" type="button">Light</button>
-	</div>
-	<button class="btn btn-dark focus" type="button">Dark</button>
-	<button class="btn btn-link focus" type="button">Link</button>
+<button class="btn btn-primary focus" type="button">Primary</button>
+<button class="btn btn-secondary focus" type="button">Secondary</button>
+<button class="btn btn-info focus" type="button">Info</button>
+<button class="btn btn-success focus" type="button">Success</button>
+<button class="btn btn-warning focus" type="button">Warning</button>
+<button class="btn btn-danger focus" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-light focus" type="button">Light</button>
 </div>
+<button class="btn btn-dark focus" type="button">Dark</button>
+<button class="btn btn-link focus" type="button">Link</button>
 
-<div>
-	<button class="btn btn-outline-primary focus" type="button">Primary</button>
-	<button class="btn btn-outline-secondary focus" type="button">Secondary</button>
-	<button class="btn btn-outline-info focus" type="button">Info</button>
-	<button class="btn btn-outline-success focus" type="button">Success</button>
-	<button class="btn btn-outline-warning focus" type="button">Warning</button>
-	<button class="btn btn-outline-danger focus" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-outline-light focus" type="button">Light</button>
-	</div>
-	<button class="btn btn-outline-dark focus" type="button">Dark</button>
+<button class="btn btn-outline-primary focus" type="button">Primary</button>
+<button class="btn btn-outline-secondary focus" type="button">Secondary</button>
+<button class="btn btn-outline-info focus" type="button">Info</button>
+<button class="btn btn-outline-success focus" type="button">Success</button>
+<button class="btn btn-outline-warning focus" type="button">Warning</button>
+<button class="btn btn-outline-danger focus" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-outline-light focus" type="button">Light</button>
 </div>
+<button class="btn btn-outline-dark focus" type="button">Dark</button>
 ```
 
 </article>
@@ -133,60 +117,52 @@ weight: 100
 
 ### Active State
 
-<div style="margin-bottom:5px;">
-	<button class="active btn btn-primary" type="button">Primary</button>
-	<button class="active btn btn-secondary" type="button">Secondary</button>
-	<button class="active btn btn-info" type="button">Info</button>
-	<button class="active btn btn-success" type="button">Success</button>
-	<button class="active btn btn-warning" type="button">Warning</button>
-	<button class="active btn btn-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="active btn btn-light" type="button">Light</button>
-	</div>
-	<button class="active btn btn-dark" type="button">Dark</button>
-	<button class="active btn btn-link" type="button">Link</button>
+<button class="active btn btn-primary" type="button">Primary</button>
+<button class="active btn btn-secondary" type="button">Secondary</button>
+<button class="active btn btn-info" type="button">Info</button>
+<button class="active btn btn-success" type="button">Success</button>
+<button class="active btn btn-warning" type="button">Warning</button>
+<button class="active btn btn-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="active btn btn-light" type="button">Light</button>
 </div>
+<button class="active btn btn-dark" type="button">Dark</button>
+<button class="active btn btn-link" type="button">Link</button>
 
-<div>
-	<button class="active btn btn-outline-primary" type="button">Primary</button>
-	<button class="active btn btn-outline-secondary" type="button">Secondary</button>
-	<button class="active btn btn-outline-info" type="button">Info</button>
-	<button class="active btn btn-outline-success" type="button">Success</button>
-	<button class="active btn btn-outline-warning" type="button">Warning</button>
-	<button class="active btn btn-outline-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="active btn btn-outline-light" type="button">Light</button>
-	</div>
-	<button class="active btn btn-outline-dark" type="button">Dark</button>
+<button class="active btn btn-outline-primary" type="button">Primary</button>
+<button class="active btn btn-outline-secondary" type="button">Secondary</button>
+<button class="active btn btn-outline-info" type="button">Info</button>
+<button class="active btn btn-outline-success" type="button">Success</button>
+<button class="active btn btn-outline-warning" type="button">Warning</button>
+<button class="active btn btn-outline-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="active btn btn-outline-light" type="button">Light</button>
 </div>
+<button class="active btn btn-outline-dark" type="button">Dark</button>
 
 ```xml
-<div style="margin-bottom:5px;">
-	<button class="active btn btn-primary" type="button">Primary</button>
-	<button class="active btn btn-secondary" type="button">Secondary</button>
-	<button class="active btn btn-info" type="button">Info</button>
-	<button class="active btn btn-success" type="button">Success</button>
-	<button class="active btn btn-warning" type="button">Warning</button>
-	<button class="active btn btn-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="active btn btn-light" type="button">Light</button>
-	</div>
-	<button class="active btn btn-dark" type="button">Dark</button>
-	<button class="active btn btn-link" type="button">Link</button>
+<button class="active btn btn-primary" type="button">Primary</button>
+<button class="active btn btn-secondary" type="button">Secondary</button>
+<button class="active btn btn-info" type="button">Info</button>
+<button class="active btn btn-success" type="button">Success</button>
+<button class="active btn btn-warning" type="button">Warning</button>
+<button class="active btn btn-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="active btn btn-light" type="button">Light</button>
 </div>
+<button class="active btn btn-dark" type="button">Dark</button>
+<button class="active btn btn-link" type="button">Link</button>
 
-<div>
-	<button class="active btn btn-outline-primary" type="button">Primary</button>
-	<button class="active btn btn-outline-secondary" type="button">Secondary</button>
-	<button class="active btn btn-outline-info" type="button">Info</button>
-	<button class="active btn btn-outline-success" type="button">Success</button>
-	<button class="active btn btn-outline-warning" type="button">Warning</button>
-	<button class="active btn btn-outline-danger" type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="active btn btn-outline-light" type="button">Light</button>
-	</div>
-	<button class="active btn btn-outline-dark" type="button">Dark</button>
+<button class="active btn btn-outline-primary" type="button">Primary</button>
+<button class="active btn btn-outline-secondary" type="button">Secondary</button>
+<button class="active btn btn-outline-info" type="button">Info</button>
+<button class="active btn btn-outline-success" type="button">Success</button>
+<button class="active btn btn-outline-warning" type="button">Warning</button>
+<button class="active btn btn-outline-danger" type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="active btn btn-outline-light" type="button">Light</button>
 </div>
+<button class="active btn btn-outline-dark" type="button">Dark</button>
 ```
 
 </article>
@@ -195,58 +171,53 @@ weight: 100
 
 ### Disabled State
 
-<div style="margin-bottom:5px;">
-	<button class="btn btn-primary" disabled type="button">Primary</button>
-	<button class="btn btn-secondary" disabled type="button">Secondary</button>
-	<button class="btn btn-info" disabled type="button">Info</button>
-	<button class="btn btn-success" disabled type="button">Success</button>
-	<button class="btn btn-warning" disabled type="button">Warning</button>
-	<button class="btn btn-danger" disabled type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-light" disabled type="button">Light</button>
-	</div>
-	<button class="btn btn-dark" disabled type="button">Dark</button>
-	<button class="btn btn-link" disabled type="button">Link</button>
+
+<button class="btn btn-primary" disabled type="button">Primary</button>
+<button class="btn btn-secondary" disabled type="button">Secondary</button>
+<button class="btn btn-info" disabled type="button">Info</button>
+<button class="btn btn-success" disabled type="button">Success</button>
+<button class="btn btn-warning" disabled type="button">Warning</button>
+<button class="btn btn-danger" disabled type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-light" disabled type="button">Light</button>
 </div>
-<div>
-	<button class="btn btn-outline-primary" disabled type="button">Primary</button>
-	<button class="btn btn-outline-secondary" disabled type="button">Secondary</button>
-	<button class="btn btn-outline-info" disabled type="button">Info</button>
-	<button class="btn btn-outline-success" disabled type="button">Success</button>
-	<button class="btn btn-outline-warning" disabled type="button">Warning</button>
-	<button class="btn btn-outline-danger" disabled type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-outline-light" disabled type="button">Light</button>
-	</div>
-	<button class="btn btn-outline-dark" disabled type="button">Dark</button>
+<button class="btn btn-dark" disabled type="button">Dark</button>
+<button class="btn btn-link" disabled type="button">Link</button>
+
+<button class="btn btn-outline-primary" disabled type="button">Primary</button>
+<button class="btn btn-outline-secondary" disabled type="button">Secondary</button>
+<button class="btn btn-outline-info" disabled type="button">Info</button>
+<button class="btn btn-outline-success" disabled type="button">Success</button>
+<button class="btn btn-outline-warning" disabled type="button">Warning</button>
+<button class="btn btn-outline-danger" disabled type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-outline-light" disabled type="button">Light</button>
 </div>
+<button class="btn btn-outline-dark" disabled type="button">Dark</button>
 
 ```xml
-<div style="margin-bottom:5px;">
-	<button class="btn btn-primary" disabled type="button">Primary</button>
-	<button class="btn btn-secondary" disabled type="button">Secondary</button>
-	<button class="btn btn-info" disabled type="button">Info</button>
-	<button class="btn btn-success" disabled type="button">Success</button>
-	<button class="btn btn-warning" disabled type="button">Warning</button>
-	<button class="btn btn-danger" disabled type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-light" disabled type="button">Light</button>
-	</div>
-	<button class="btn btn-dark" disabled type="button">Dark</button>
-	<button class="btn btn-link" disabled type="button">Link</button>
+<button class="btn btn-primary" disabled type="button">Primary</button>
+<button class="btn btn-secondary" disabled type="button">Secondary</button>
+<button class="btn btn-info" disabled type="button">Info</button>
+<button class="btn btn-success" disabled type="button">Success</button>
+<button class="btn btn-warning" disabled type="button">Warning</button>
+<button class="btn btn-danger" disabled type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-light" disabled type="button">Light</button>
 </div>
-<div>
-	<button class="btn btn-outline-primary" disabled type="button">Primary</button>
-	<button class="btn btn-outline-secondary" disabled type="button">Secondary</button>
-	<button class="btn btn-outline-info" disabled type="button">Info</button>
-	<button class="btn btn-outline-success" disabled type="button">Success</button>
-	<button class="btn btn-outline-warning" disabled type="button">Warning</button>
-	<button class="btn btn-outline-danger" disabled type="button">Danger</button>
-	<div class="clay-site-light-container">
-		<button class="btn btn-outline-light" disabled type="button">Light</button>
-	</div>
-	<button class="btn btn-outline-dark" disabled type="button">Dark</button>
+<button class="btn btn-dark" disabled type="button">Dark</button>
+<button class="btn btn-link" disabled type="button">Link</button>
+
+<button class="btn btn-outline-primary" disabled type="button">Primary</button>
+<button class="btn btn-outline-secondary" disabled type="button">Secondary</button>
+<button class="btn btn-outline-info" disabled type="button">Info</button>
+<button class="btn btn-outline-success" disabled type="button">Success</button>
+<button class="btn btn-outline-warning" disabled type="button">Warning</button>
+<button class="btn btn-outline-danger" disabled type="button">Danger</button>
+<div class="clay-site-light-container">
+	<button class="btn btn-outline-light" disabled type="button">Light</button>
 </div>
+<button class="btn btn-outline-dark" disabled type="button">Dark</button>
 ```
 
 </article>
@@ -255,58 +226,53 @@ weight: 100
 
 ### Anchor Elements and Inputs as Buttons
 
-<div style="margin-bottom:5px;">
-	<input class="btn btn-primary" type="button" value="Input" />
-	<a class="btn btn-secondary" href="#1" role="button">Anchor</a>
-	<input class="btn btn-info" type="submit" value="Submit" />
-	<a class="btn btn-success" href="#1" role="button">Anchor</a>
-	<a class="btn btn-warning" href="#1" role="button">Anchor</a>
-	<a class="btn btn-danger" href="#1" role="button">Anchor</a>
-	<div class="clay-site-light-container">
-		<a class="btn btn-light" href="#1" role="button">Anchor</a>
-	</div>
-	<a class="btn btn-dark" href="#1" role="button">Anchor</a>
-	<a class="btn btn-link" href="#1" role="button">Anchor</a>
+<input class="btn btn-primary" type="button" value="Input" />
+<a class="btn btn-secondary" href="#1" role="button">Anchor</a>
+<input class="btn btn-info" type="submit" value="Submit" />
+<a class="btn btn-success" href="#1" role="button">Anchor</a>
+<a class="btn btn-warning" href="#1" role="button">Anchor</a>
+<a class="btn btn-danger" href="#1" role="button">Anchor</a>
+<div class="clay-site-light-container">
+	<a class="btn btn-light" href="#1" role="button">Anchor</a>
 </div>
-<div>
-	<input class="btn btn-outline-primary" type="button" value="Input" />
-	<a class="btn btn-outline-secondary" href="#1" role="button">Anchor</a>
-	<input class="btn btn-outline-info" type="submit" value="Submit" />
-	<a class="btn btn-outline-success" href="#1" role="button">Anchor</a>
-	<a class="btn btn-outline-warning" href="#1" role="button">Anchor</a>
-	<a class="btn btn-outline-danger" href="#1" role="button">Anchor</a>
-	<div class="clay-site-light-container">
-		<a class="btn btn-outline-light" href="#1" role="button">Anchor</a>
-	</div>
-	<a class="btn btn-outline-dark" href="#1" role="button">Anchor</a>
+<a class="btn btn-dark" href="#1" role="button">Anchor</a>
+<a class="btn btn-link" href="#1" role="button">Anchor</a>
+
+<input class="btn btn-outline-primary" type="button" value="Input" />
+<a class="btn btn-outline-secondary" href="#1" role="button">Anchor</a>
+<input class="btn btn-outline-info" type="submit" value="Submit" />
+<a class="btn btn-outline-success" href="#1" role="button">Anchor</a>
+<a class="btn btn-outline-warning" href="#1" role="button">Anchor</a>
+<a class="btn btn-outline-danger" href="#1" role="button">Anchor</a>
+<div class="clay-site-light-container">
+	<a class="btn btn-outline-light" href="#1" role="button">Anchor</a>
 </div>
+<a class="btn btn-outline-dark" href="#1" role="button">Anchor</a>
+
 
 ```xml
-<div style="margin-bottom:5px;">
-	<input class="btn btn-primary" type="button" value="Input" />
-	<a class="btn btn-secondary" href="#1" role="button">Anchor</a>
-	<input class="btn btn-info" type="submit" value="Submit" />
-	<a class="btn btn-success" href="#1" role="button">Anchor</a>
-	<a class="btn btn-warning" href="#1" role="button">Anchor</a>
-	<a class="btn btn-danger" href="#1" role="button">Anchor</a>
-	<div class="clay-site-light-container">
-		<a class="btn btn-light" href="#1" role="button">Anchor</a>
-	</div>
-	<a class="btn btn-dark" href="#1" role="button">Anchor</a>
-	<a class="btn btn-link" href="#1" role="button">Anchor</a>
+<input class="btn btn-primary" type="button" value="Input" />
+<a class="btn btn-secondary" href="#1" role="button">Anchor</a>
+<input class="btn btn-info" type="submit" value="Submit" />
+<a class="btn btn-success" href="#1" role="button">Anchor</a>
+<a class="btn btn-warning" href="#1" role="button">Anchor</a>
+<a class="btn btn-danger" href="#1" role="button">Anchor</a>
+<div class="clay-site-light-container">
+	<a class="btn btn-light" href="#1" role="button">Anchor</a>
 </div>
-<div>
-	<input class="btn btn-outline-primary" type="button" value="Input" />
-	<a class="btn btn-outline-secondary" href="#1" role="button">Anchor</a>
-	<input class="btn btn-outline-info" type="submit" value="Submit" />
-	<a class="btn btn-outline-success" href="#1" role="button">Anchor</a>
-	<a class="btn btn-outline-warning" href="#1" role="button">Anchor</a>
-	<a class="btn btn-outline-danger" href="#1" role="button">Anchor</a>
-	<div class="clay-site-light-container">
-		<a class="btn btn-outline-light" href="#1" role="button">Anchor</a>
-	</div>
-	<a class="btn btn-outline-dark" href="#1" role="button">Anchor</a>
+<a class="btn btn-dark" href="#1" role="button">Anchor</a>
+<a class="btn btn-link" href="#1" role="button">Anchor</a>
+
+<input class="btn btn-outline-primary" type="button" value="Input" />
+<a class="btn btn-outline-secondary" href="#1" role="button">Anchor</a>
+<input class="btn btn-outline-info" type="submit" value="Submit" />
+<a class="btn btn-outline-success" href="#1" role="button">Anchor</a>
+<a class="btn btn-outline-warning" href="#1" role="button">Anchor</a>
+<a class="btn btn-outline-danger" href="#1" role="button">Anchor</a>
+<div class="clay-site-light-container">
+	<a class="btn btn-outline-light" href="#1" role="button">Anchor</a>
 </div>
+<a class="btn btn-outline-dark" href="#1" role="button">Anchor</a>
 ```
 
 </article>
@@ -895,26 +861,18 @@ var alertExample = function() {
 {/literal}
 </script>
 
-<div class="row">
-	<div class="col-12">
-		<a class="btn btn-action btn-primary" href="/docs/examples/blogs_action.html" onclick="alertExample(); return false;" role="button">
-			<svg class="icon-monospaced lexicon-icon lexicon-icon-plus">
-				<use xlink:href="/vendor/clay/icons.svg#plus" />
-			</svg>
-		</a>
-	</div>
-</div>
+<a class="btn btn-action btn-primary" href="/docs/examples/blogs_action.html" onclick="alertExample(); return false;" role="button">
+	<svg class="icon-monospaced lexicon-icon lexicon-icon-plus">
+		<use xlink:href="/vendor/clay/icons.svg#plus" />
+	</svg>
+</a>
 
 ```xml
-<div class="row">
-	<div class="col-12">
-		<a class="btn btn-action btn-primary" href="/docs/examples/blogs_action.html" onclick="alert('Link to Somewhere');return false;" role="button">
-			<svg class="icon-monospaced lexicon-icon lexicon-icon-plus">
-				<use xlink:href="/vendor/clay/icons.svg#plus" />
-			</svg>
-		</a>
-	</div>
-</div>
+<a class="btn btn-action btn-primary" href="/docs/examples/blogs_action.html" onclick="alert('Link to Somewhere');return false;" role="button">
+	<svg class="icon-monospaced lexicon-icon lexicon-icon-plus">
+		<use xlink:href="/vendor/clay/icons.svg#plus" />
+	</svg>
+</a>
 ```
 
 > `.btn` should be nested inside `.btn-action` where multiple primary actions can be taken. This button will display an overflow menu with a list of available actions. For example, on the users and organizations page in the control panel, a user, organization, or location can be added. Clicking the button inside btn-action will open an overflow menu with add user, add organization, or add location options (button on bottom right).
