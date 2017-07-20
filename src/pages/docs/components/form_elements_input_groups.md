@@ -548,7 +548,7 @@ weight: 100
 			<input aria-label="Amount" class="form-control" id="defaultLogoutPage" placeholder="Some placeholder text..." type="text">
 			<span class="input-group-addon">
 				<span class="input-group-addon-content">
-					<a class="help-icon help-icon-default icon-monospaced icon-question" data-toggle="popover" href="#1"></a>
+					<a class="help-icon help-icon-default icon-monospaced icon-question" data-container="body" data-content="Some help text for your input." data-placement="left" data-trigger="hover" data-toggle="popover" title="Some help text for your input." href="#1"></a>
 				</span>
 			</span>
 		</div>
@@ -614,7 +614,7 @@ weight: 100
 			<input aria-label="Amount" class="form-control" id="defaultLogoutPage" placeholder="Some placeholder text..." type="text">
 			<span class="input-group-addon">
 				<span class="input-group-addon-content">
-					<a class="help-icon help-icon-default icon-monospaced icon-question" data-toggle="popover" href="#1"></a>
+					<a class="help-icon help-icon-default icon-monospaced icon-question" data-container="body" data-content="Some help text for your input." data-placement="left" data-trigger="hover" data-toggle="popover" title="Some help text for your input." href="#1"></a>
 				</span>
 			</span>
 		</div>
@@ -631,7 +631,7 @@ weight: 100
 			<input aria-label="Amount" class="form-control" id="defaultLogoutPage" placeholder="Some placeholder text..." type="text">
 			<span class="input-group-addon">
 				<span class="input-group-addon-content">
-					<a class="help-icon help-icon-default icon-monospaced icon-question" data-toggle="popover" href="#1"></a>
+					<a class="help-icon help-icon-default icon-monospaced icon-question" data-container="body" data-content="Some help text for your input." data-placement="left" data-trigger="hover" data-toggle="popover" title="Some help text for your input." href="#1"></a>
 				</span>
 			</span>
 		</div>
@@ -833,15 +833,3 @@ weight: 100
 ```
 
 </article>
-
-<script>
-{literal}
-	console.log('yo', $('[data-toggle="popover"]')
-	$('[data-toggle="popover"]').popover({
-		container: 'body',
-		content: 'Some help text for your input.',
-		placement: 'left',
-		trigger: 'hover'
-	});
-{/literal}
-</script>
