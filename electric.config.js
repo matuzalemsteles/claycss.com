@@ -16,19 +16,14 @@ module.exports = {
 			src: 'node_modules/source-sans-pro/**'
 		},
 		{
-			dest: 'dist/vendor/clay',
+			dest: 'dist/vendor/lexicon',
 			src: path.join(clay.buildDir, 'images', 'icons', '*')
 		},
 		{
 			src: [
-				path.join(clayJSPath, 'popper.js'),
 				path.join(clayJSPath, 'svg4everybody.js'),
 				path.join(clayJSPath, 'bootstrap.js')
 			]
-		},
-		{
-			dest: 'dist/vendor/jquery',
-			src: 'node_modules/jquery/dist/jquery.min.js'
 		},
 		{
 			src: path.join(clayJSPath, 'svg4everybody.js')
