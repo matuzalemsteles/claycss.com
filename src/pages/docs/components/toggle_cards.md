@@ -12,7 +12,7 @@ weight: 100
 > Checkboxes styled like a card.
 
 <form action="#" class="row" method="get">
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -27,7 +27,7 @@ weight: 100
 			</div>
 		</label>
 	</div>
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -45,7 +45,7 @@ weight: 100
 			</div>
 		</label>
 	</div>
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -68,7 +68,7 @@ weight: 100
 
 ```xml
 <form action="#" class="row" method="get">
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -84,7 +84,7 @@ weight: 100
 		</label>
 	</div>
 
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -104,7 +104,7 @@ weight: 100
 		</label>
 	</div>
 
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -136,7 +136,7 @@ weight: 100
 > Radio Buttons styled like a card.
 
 <form action="#" class="row" method="get">
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" id="toggleCardRadioOption1" name="toggleCardRadio1" type="radio" value="option1">
 			<div class="toggle-card-container">
@@ -151,7 +151,7 @@ weight: 100
 			</div>
 		</label>
 	</div>
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" id="toggleCardRadioOption2" name="toggleCardRadio1" type="radio" value="option2">
 			<div class="toggle-card-container">
@@ -169,7 +169,7 @@ weight: 100
 			</div>
 		</label>
 	</div>
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" id="toggleCardRadioOption3" name="toggleCardRadio1" type="radio" value="option3">
 			<div class="toggle-card-container">
@@ -192,7 +192,7 @@ weight: 100
 
 ```xml
 <form action="#" class="row" method="get">
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" id="toggleCardRadioOption1" name="toggleCardRadio1" type="radio" value="option1">
 			<div class="toggle-card-container">
@@ -208,7 +208,7 @@ weight: 100
 		</label>
 	</div>
 
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" id="toggleCardRadioOption2" name="toggleCardRadio1" type="radio" value="option2">
 			<div class="toggle-card-container">
@@ -228,7 +228,7 @@ weight: 100
 		</label>
 	</div>
 
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" id="toggleCardRadioOption3" name="toggleCardRadio1" type="radio" value="option3">
 			<div class="toggle-card-container">
@@ -260,7 +260,7 @@ weight: 100
 > Disable a toggle-card by adding the attribute `disabled="disabled"` to `<input class="toggle-card-check" type="checkbox">`.
 
 <form action="#" class="row" method="get">
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" disabled type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -279,7 +279,7 @@ weight: 100
 			</div>
 		</label>
 	</div>
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" disabled type="radio" value="">
 			<div class="toggle-card-container">
@@ -302,7 +302,7 @@ weight: 100
 
 ```xml
 <form action="#" class="row" method="get">
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" disabled type="checkbox" value="">
 			<div class="toggle-card-container">
@@ -323,7 +323,7 @@ weight: 100
 		</label>
 	</div>
 
-	<div style="padding-left:15px;padding-right:15px;">
+	<div class="ml-2">
 		<label class="toggle-card">
 			<input class="toggle-card-check" disabled type="radio" value="">
 			<div class="toggle-card-container">
