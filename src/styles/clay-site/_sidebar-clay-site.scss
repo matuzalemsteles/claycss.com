@@ -1,6 +1,7 @@
 .sidebar-clay-site {
 	background-color: $brand-dark;
 	border-right: 0.5rem solid transparent;
+	min-width: 370px;
 
 	&::-webkit-scrollbar {
 		-webkit-appearance: none;
@@ -180,5 +181,16 @@
 				@include transform(rotate(0));
 			}
 		}
+	}
+}
+
+.sidebar-toggler {
+	color: #FFF;
+	display: none;
+}
+
+@media (max-width: $screen-sm - 1) {
+	.sidebar-toggler {
+		display: block;
 	}
 }

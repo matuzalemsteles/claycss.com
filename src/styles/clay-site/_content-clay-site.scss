@@ -68,3 +68,9 @@
 		}
 	}
 }
+
+@media (max-width: $screen-sm - 1) {
+	.content .sidebar-offset {
+		padding-top: 80px;
+	}
+}
