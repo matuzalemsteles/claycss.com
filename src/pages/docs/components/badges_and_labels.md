@@ -202,6 +202,31 @@ weight: 100
 <span class="label label-light">Light</span>
 <span class="label label-dark">Dark</span>
 ```
+```soy
+{call ClayLabel.render}
+	{param label: 'Label Text' /}
+{/call}
+
+{call ClayLabel.render}
+	{param label: 'Status' /}
+	{param style: 'info' /}
+{/call}
+
+{call ClayLabel.render}
+	{param label: 'Pending' /}
+	{param style: 'warning' /}
+{/call}
+
+{call ClayLabel.render}
+	{param label: 'Rejected' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClayLabel.render}
+	{param label: 'Approved' /}
+	{param style: 'success' /}
+{/call}
+```
 
 </article>
 
@@ -229,6 +254,36 @@ weight: 100
 <a class="label label-light" href="#1">Light</a>
 <a class="label label-dark" href="#1">Dark</a>
 ```
+```soy
+{call ClayLabel.render}
+	{param href: '#1' /}
+	{param label: 'Label Text' /}
+{/call}
+
+{call ClayLabel.render}
+	{param href: '#1' /}
+	{param label: 'Status' /}
+	{param style: 'info' /}
+{/call}
+
+{call ClayLabel.render}
+	{param href: '#1' /}
+	{param label: 'Pending' /}
+	{param style: 'warning' /}
+{/call}
+
+{call ClayLabel.render}
+	{param href: '#1' /}
+	{param label: 'Rejected' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClayLabel.render}
+	{param href: '#1' /}
+	{param label: 'Approved' /}
+	{param style: 'success' /}
+{/call}
+```
 
 </article>
 
@@ -247,6 +302,18 @@ weight: 100
 <span class="label label-primary label-sm">Small Label</span>
 <span class="label label-secondary">Normal Label</span>
 <span class="label label-lg label-success">Large Label</span>
+```
+```soy
+{call ClayLabel.render}
+	{param label: 'Small Label' /}
+	{param size: 'sm' /}
+	{param style: 'info' /}
+{/call}
+
+{call ClayLabel.render}
+	{param closeable: true /}
+	{param label: 'Normal Label' /}
+{/call}
 ```
 
 </article>
@@ -306,6 +373,21 @@ weight: 100
 		</svg>
 	</button>
 </span>
+```
+```soy
+{call ClayLabel.render}
+	{param closeable: true /}
+	{param label: 'Small Label' /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param size: 'sm' /}
+	{param style: 'info' /}
+{/call}
+
+{call ClayLabel.render}
+	{param closeable: true /}
+	{param label: 'Normal Label' /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+{/call}
 ```
 
 </article>
