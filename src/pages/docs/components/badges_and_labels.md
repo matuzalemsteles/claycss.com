@@ -28,6 +28,21 @@ weight: 100
 <span class="badge badge-light">130</span>
 <span class="badge badge-dark">130</span>
 ```
+```soy
+{call ClayBadge.render}
+	{param: label: '8' /}
+{/param}
+
+{call ClayBadge.render}
+	{param: label: '87' /}
+	{param: style: 'secondary' /}
+{/param}
+
+{call ClayBadge.render}
+	{param: label: '999K' /}
+	{param: style: 'success' /}
+{/param}
+```
 
 </article>
 
