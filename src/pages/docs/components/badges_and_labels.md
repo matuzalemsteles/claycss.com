@@ -418,6 +418,47 @@ weight: 100
 <span class="sticker sticker-light">133</span>
 <span class="sticker sticker-dark">133</span>
 ```
+```soy
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'primary' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'secondary' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'success' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'info' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'warning' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'light' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'dark' /}
+{/call}
+```
 
 </article>
 
@@ -473,6 +514,31 @@ weight: 100
 	<span class="sticker sticker-bottom-right sticker-danger">PDF</span>
 </div>
 ```
+```soy
+{call ClaySticker.render}
+	{param label: 'PDF' /}
+	{param position: 'top-left' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: 'PDF' /}
+	{param position: 'bottom-left' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: 'PDF' /}
+	{param position: 'top-right' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: 'PDF' /}
+	{param position: 'bottom-right' /}
+	{param style: 'danger' /}
+{/call}
+```
 
 </article>
 
@@ -495,6 +561,30 @@ weight: 100
 <span class="sticker sticker-lg sticker-success">133</span>
 <span class="sticker sticker-xl sticker-info">133</span>
 <span class="sticker sticker-xxl sticker-warning">133</span>
+```
+```soy
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param size: 'sm' /}
+	{param style: 'primary' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param style: 'secondary' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param size: 'lg' /}
+	{param style: 'success' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: '133' /}
+	{param size: 'xl' /}
+	{param style: 'info' /}
+{/call}
 ```
 
 <span class="sticker sticker-xxl sticker-warning">
@@ -549,6 +639,42 @@ weight: 100
 		<use xlink:href="/vendor/lexicon/icons.svg#folder" />
 	</svg>
 </span>
+```
+```soy
+{call ClaySticker.render}
+	{param icon: [
+			'spritemap': '/vendor/lexicon/icons.svg',
+			'symbol': 'magic'
+	] /}
+	{param size: 'xl' /}
+	{param style: 'success' /}
+{/call}
+
+{call ClaySticker.render}
+	{param icon: [
+			'spritemap': '/vendor/lexicon/icons.svg',
+			'symbol': 'picture'
+	] /}
+	{param size: 'lg' /}
+	{param style: 'success' /}
+{/call}
+
+{call ClaySticker.render}
+	{param icon: [
+			'spritemap': '/vendor/lexicon/icons.svg',
+			'symbol': 'home'
+	] /}
+	{param style: 'secondary' /}
+{/call}
+
+{call ClaySticker.render}
+	{param icon: [
+			'spritemap': '/vendor/lexicon/icons.svg',
+			'symbol': 'format'
+	] /}
+	{param size: 'sm' /}
+	{param style: 'primary' /}
+{/call}
 ```
 
 </article>
@@ -640,6 +766,51 @@ weight: 100
 	Email
 	<span class="rounded-circle sticker sticker-bottom-right sticker-danger sticker-outside">133</span>
 </button>
+```
+```soy
+{call ClayButton.render}
+	{param label kind="xml"}
+		{call ClaySticker.render}
+			{param label: '133' /}
+			{param outside: 'top-left' /}
+			{param shape: 'circle' /}
+			{param style: 'danger' /}
+		{/call}
+	{/param}
+{/call}
+
+{call ClayButton.render}
+	{param label kind="xml"}
+		{call ClaySticker.render}
+			{param label: '133' /}
+			{param outside: 'bottom-left' /}
+			{param shape: 'circle' /}
+			{param style: 'danger' /}
+		{/call}
+	{/param}
+{/call}
+
+{call ClayButton.render}
+	{param label kind="xml"}
+		{call ClaySticker.render}
+			{param label: '133' /}
+			{param outside: 'top-right' /}
+			{param shape: 'circle' /}
+			{param style: 'danger' /}
+		{/call}
+	{/param}
+{/call}
+
+{call ClayButton.render}
+	{param label kind="xml"}
+		{call ClaySticker.render}
+			{param label: '133' /}
+			{param outside: 'bottom-right' /}
+			{param shape: 'circle' /}
+			{param style: 'danger' /}
+		{/call}
+	{/param}
+{/call}
 ```
 
 <div class="row">
@@ -795,6 +966,30 @@ weight: 100
 <span class="rounded-circle sticker sticker-info sticker-lg">SP</span>
 <span class="rounded-circle sticker sticker-primary sticker-xl">WW</span>
 <span class="rounded-circle sticker sticker-success sticker-xxl">TT</span>
+```
+```soy
+{call ClaySticker.render}
+	{param label: 'JB' /}
+	{param size: 'sm' /}
+	{param style: 'secondary' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: 'TT' /}
+	{param style: 'danger' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: 'SP' /}
+	{param size: 'lg' /}
+	{param style: 'info' /}
+{/call}
+
+{call ClaySticker.render}
+	{param label: 'WW' /}
+	{param size: 'xl' /}
+	{param style: 'primary' /}
+{/call}
 ```
 
 </article>
