@@ -132,6 +132,41 @@ weight: 100
 	</label>
 </div>
 ```
+```soy
+{call ClayCheckbox.render}
+	{param hideLabel: true /}
+	{param label: 'Hidden Label Checkbox' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param label: 'Label' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param disabled: true /}
+	{param label: 'Disabled Check Box' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param disabled: true /}
+	{param label: 'Label' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param inline: true /}
+	{param label: 'Inline 1' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param inline: true /}
+	{param label: 'Inline 2' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param inline: true /}
+	{param label: 'Inline 3' /}
+{/call}
+```
 
 </article>
 

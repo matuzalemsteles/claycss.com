@@ -218,6 +218,38 @@ weight: 100
 	</label>
 </div>
 ```
+```soy
+{call ClayCheckbox.render}
+	{param label: 'Unchecked' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param checked: true /}
+	{param label: 'Checked' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param indeterminate: true /}
+	{param label: 'Indeterminate' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param disabled: true /}
+	{param label: 'Unchecked disabled' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param checked: true /}
+	{param disabled: true /}
+	{param label: 'Checked disabled' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param disabled: true /}
+	{param indeterminate: true /}
+	{param label: 'Indeterminate disabled' /}
+{/call}
+```
 
 </article>
 
