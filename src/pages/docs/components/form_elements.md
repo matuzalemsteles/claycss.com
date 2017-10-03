@@ -239,6 +239,42 @@ weight: 100
 	</label>
 </div>
 ```
+```soy
+{call ClayRadio.render}
+	{param hideLabel: true /}
+	{param label: 'Hidden Label Radio' /}
+{/call}
+
+{call ClayRadio.render}
+	{param label: 'Label' /}
+{/call}
+
+{call ClayRadio.render}
+	{param disabled: true /}
+	{param label: 'Disabled Radio Button' /}
+{/call}
+
+{call ClayRadio.render}
+	{param inline: true /}
+	{param label: '1' /}
+	{param name: 'inline-radio' /}
+	{param value: 'option1' /}
+{/call}
+
+{call ClayRadio.render}
+	{param inline: true /}
+	{param label: '2' /}
+	{param name: 'inline-radio' /}
+	{param value: 'option2' /}
+{/call}
+
+{call ClayRadio.render}
+	{param inline: true /}
+	{param label: '3' /}
+	{param name: 'inline-radio' /}
+	{param value: 'option3' /}
+{/call}
+```
 
 </article>
 
