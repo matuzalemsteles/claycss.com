@@ -76,6 +76,38 @@ weight: 100
 	</div>
 </div>
 ```
+```soy
+{call ClayActionsDropdown.render}
+	{param items: [
+			[
+				'label': 'Download',
+				'url': '#1'
+			],
+			[
+				'label': 'Edit',
+				'url': '#1'
+			],
+			[
+				'label': 'Move',
+				'url': '#1'
+			],
+			[
+				'label': 'Checkout',
+				'url': '#1'
+			],
+			[
+				'label': 'Permissions',
+				'url': '#1'
+			],
+			[
+				'label': 'Move to Recycle Bin',
+				'url': '#1'
+			],
+	] /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param triggerLabel: 'Trigger' /}
+{/call}
+```
 
 </article>
 
@@ -194,6 +226,70 @@ weight: 100
 	<a class="dropdown-item" href="#">Status</a>
 </div>
 ```
+```soy
+{call ClayDropdown.render}
+	{param items: [
+			[
+				'label': 'Filter By',
+				'items': [
+					[
+						'checked': true,
+						'label': 'Selected Option',
+						'inputValue': '1',
+						'type': 'checkbox'
+					],
+					[
+						'label': 'Normal option',
+						'inputValue': '2',
+						'type': 'checkbox'
+					],
+					[
+						'disabled': true,
+						'label': 'Disabled option',
+						'inputValue': '3',
+						'type': 'checkbox'
+					]
+				],
+				'type': 'group'
+			]
+	] /}
+	{param searchable: true /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param triggerLabel: 'Trigger Label' /}
+{/call}
+
+{call ClayDropdown.render}
+	{param button: [
+			'label': 'Done',
+			'style': 'primary'
+	] /}
+	{param items: [
+			[
+				'label': 'Order By',
+				'items': [
+					[
+						'checked': true,
+						'label': 'Selected Option',
+						'inputValue': '1',
+					],
+					[
+						'label': 'Normal option',
+						'inputValue': '2',
+					],
+					[
+						'disabled': true,
+						'label': 'Disabled option',
+						'inputValue': '3',
+					]
+				],
+				'inputName': 'item1radio',
+				'type': 'radiogroup'
+			]
+	] /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param triggerLabel: 'Trigger Label' /}
+{/call}
+```
 
 </article>
 
@@ -271,6 +367,46 @@ weight: 100
 	<div class="dropdown-caption">Dropdown Caption</div>
 </div>
 ```
+```soy
+{param ClayDropdownBase.render}
+	{param caption: 'Dropdown Caption' /}
+	{param items: [
+			[
+				'label': 'Dropdown header',
+				'items': [
+					[
+						'label': 'Ticket Buyer Information',
+						'indicatorSymbol': 'check',
+						'url': '#1'
+					],
+					[
+						'label': 'Attendee Information',
+						'indicatorSymbol': 'check',
+						'url': '#1'
+					],
+					[
+						'label': 'Seat Assignment',
+						'indicatorSymbol': 'check',
+						'url': '#1'
+					],
+					[
+						'active': true,
+						'label': 'Dinner Preference',
+						'url': '#1'
+					],
+					[
+						'label': 'Submit Payment',
+						'url': '#1'
+					],
+				],
+				'type': 'group'
+			]
+	] /}
+	{param indicatorsPosition: 'left' /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param triggerLabel: 'Trigger label' /}
+{/param}
+```
 
 ### Dropdown Menu Indicator End
 
@@ -342,6 +478,47 @@ weight: 100
 	<a class="dropdown-item" href="#1">Step 05</a>
 	<div class="dropdown-caption">Showing 190,722 of 192,842 Things</div>
 </div>
+```
+```
+{param ClayDropdownBase.render}
+	{param caption: 'Showing 190,722 of 192,842 Things' /}
+	{param items: [
+			[
+				'label': 'Order by',
+				'items': [
+					[
+						'active': true,
+						'label': 'Step 01',
+						'indicatorSymbol': 'check',
+						'url': '#1'
+					],
+					[
+						'disabled': true,
+						'label': 'Step 02',
+						'indicatorSymbol': 'check',
+						'url': '#1'
+					],
+					[
+						'label': 'Step 03',
+						'indicatorSymbol': 'times',
+						'url': '#1'
+					],
+					[
+						'label': 'Step 04',
+						'url': '#1'
+					],
+					[
+						'label': 'Step 05',
+						'url': '#1'
+					],
+				],
+				'type': 'group'
+			]
+	] /}
+	{param indicatorsPosition: 'right' /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param triggerLabel: 'Trigger label' /}
+{/param}
 ```
 
 </article>
@@ -434,6 +611,58 @@ weight: 100
 	<div class="dropdown-divider"></div>
 	<a class="dropdown-item" href="#">Scope</a>
 </div>
+```
+```soy
+{call ClayDropdownBase.render}
+	{param button: [
+			'label': 'More',
+			'style': 'primary'
+	] /}
+	{param caption: 'Showing 7 of 203 Structures' /}
+	{param helpText: 'You can customize this menu or see all you have by pressing "more".' /}
+	{param items: [
+		[
+			'label': 'Favorites',
+			'items': [
+				[
+					'label': 'D Structure',
+					'url': '#1'
+				],
+				[
+					'label': 'F Structure',
+					'url': '#1'
+				],
+				[
+					'disabled': true,
+					'label': 'H Structure',
+					'url': '#1'
+				],
+				[
+					'label': 'J Structure',
+					'url': '#1'
+				],
+				[
+					'label': 'L Structure',
+					'url': '#1'
+				],
+				[
+					'label': 'M Structure',
+					'url': '#1'
+				],
+				[
+					'label': 'P Structure',
+					'url': '#1'
+				],
+				[
+					'label': 'Q Structure',
+					'url': '#1'
+				]
+			],
+			'type': 'group'
+		]
+	] /}
+	{param triggerLabel: 'Trigger Label' /}
+{/call}
 ```
 
 </article>
