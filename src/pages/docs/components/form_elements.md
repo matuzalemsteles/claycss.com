@@ -132,6 +132,41 @@ weight: 100
 	</label>
 </div>
 ```
+```soy
+{call ClayCheckbox.render}
+	{param hideLabel: true /}
+	{param label: 'Hidden Label Checkbox' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param label: 'Label' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param disabled: true /}
+	{param label: 'Disabled Check Box' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param disabled: true /}
+	{param label: 'Label' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param inline: true /}
+	{param label: 'Inline 1' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param inline: true /}
+	{param label: 'Inline 2' /}
+{/call}
+
+{call ClayCheckbox.render}
+	{param inline: true /}
+	{param label: 'Inline 3' /}
+{/call}
+```
 
 </article>
 
@@ -204,6 +239,42 @@ weight: 100
 	</label>
 </div>
 ```
+```soy
+{call ClayRadio.render}
+	{param hideLabel: true /}
+	{param label: 'Hidden Label Radio' /}
+{/call}
+
+{call ClayRadio.render}
+	{param label: 'Label' /}
+{/call}
+
+{call ClayRadio.render}
+	{param disabled: true /}
+	{param label: 'Disabled Radio Button' /}
+{/call}
+
+{call ClayRadio.render}
+	{param inline: true /}
+	{param label: '1' /}
+	{param name: 'inline-radio' /}
+	{param value: 'option1' /}
+{/call}
+
+{call ClayRadio.render}
+	{param inline: true /}
+	{param label: '2' /}
+	{param name: 'inline-radio' /}
+	{param value: 'option2' /}
+{/call}
+
+{call ClayRadio.render}
+	{param inline: true /}
+	{param label: '3' /}
+	{param name: 'inline-radio' /}
+	{param value: 'option3' /}
+{/call}
+```
 
 </article>
 
@@ -257,6 +328,54 @@ weight: 100
 	<option>Sample 7</option>
 	<option>Sample 8</option>
 </select>
+```
+```soy
+{call ClaySelect.render}
+	{param id: 'regularSelectElement' /}
+	{param label: 'Regular Select Element' /}
+	{param options: [
+		[
+			'label': 'Sample 1',
+			'value': '1'
+		],
+		[
+			'label': 'Sample 2',
+			'value': '2'
+		],
+		[
+			'label': 'Sample 3',
+			'value': '3'
+		],
+		[
+			'label': 'Sample 4',
+			'value': '4'
+		],
+	] /}
+{/call}
+
+{call ClaySelect.render}
+	{param id: 'multipleSelectOptionsSelectElement' /}
+	{param label: 'Select Element with Multiple Select Options' /}
+	{param multiple: true /}
+	{param options: [
+		[
+			'label': 'Sample 1',
+			'value': '1'
+		],
+		[
+			'label': 'Sample 2',
+			'value': '2'
+		],
+		[
+			'label': 'Sample 3',
+			'value': '3'
+		],
+		[
+			'label': 'Sample 4',
+			'value': '4'
+		],
+	] /}
+{/call}
 ```
 
 </article>
@@ -351,6 +470,56 @@ weight: 100
 	<option>Sample 7</option>
 	<option>Sample 8</option>
 </select>
+```
+```soy
+{call ClaySelect.render}
+	{param disabled: true /}
+	{param id: 'disabledSelectElement' /}
+	{param label: 'Select Element' /}
+	{param options: [
+		[
+			'label': 'Sample 1',
+			'value': '1'
+		],
+		[
+			'label': 'Sample 2',
+			'value': '2'
+		],
+		[
+			'label': 'Sample 3',
+			'value': '3'
+		],
+		[
+			'label': 'Sample 4',
+			'value': '4'
+		],
+	] /}
+{/call}
+
+{call ClaySelect.render}
+	{param disabled: true /}
+	{param id: 'disabledSelectElementMulti' /}
+	{param label: 'Select Element with Multiple Select Options' /}
+	{param multiple: true /}
+	{param options: [
+		[
+			'label': 'Sample 1',
+			'value': '1'
+		],
+		[
+			'label': 'Sample 2',
+			'value': '2'
+		],
+		[
+			'label': 'Sample 3',
+			'value': '3'
+		],
+		[
+			'label': 'Sample 4',
+			'value': '4'
+		],
+	] /}
+{/call}
 ```
 
 </article>

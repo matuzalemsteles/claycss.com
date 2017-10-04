@@ -78,6 +78,34 @@ weight: 100
 	</div>
 </div>
 ```
+```soy
+{call ClayProgressBar.render}
+	{param minValue: 0 /}
+	{param maxValue: 100 /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param value: 60 /}
+{/call}
+
+{call ClayProgressBar.render}
+	{param minValue: 0 /}
+	{param maxValue: 100 /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param status: 'warning' /}
+	{param value: 60 /}
+{/call}
+
+{call ClayProgressBar.render}
+	{param minValue: 0 /}
+	{param maxValue: 100 /}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param value: 100 /}
+{/call}
+
+{call ClayProgressBar.render}
+	{param spritemap: '/vendor/lexicon/icons.svg' /}
+	{param status: 'complete' /}
+{/call}
+```
 
 </article>
 
