@@ -62,7 +62,7 @@ weight: 100
 	<strong class="lead">Dark:</strong> This is a <a href="#1" class="alert-link">dark alert</a>.
 </div>
 
-```xml
+```text/html
 <div class="alert alert-primary" role="alert">
 	<svg aria-hidden="true" class="lexicon-icon lexicon-icon-info-circle">
 		<use xlink:href="/vendor/lexicon/icons.svg#info-circle"></use>
