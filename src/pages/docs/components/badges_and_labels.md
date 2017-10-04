@@ -18,7 +18,7 @@ weight: 100
 <span class="badge badge-light">130</span>
 <span class="badge badge-dark">130</span>
 
-```xml
+```text/html
 <span class="badge badge-primary">8</span>
 <span class="badge badge-secondary">87</span>
 <span class="badge badge-success">999K</span>
@@ -60,7 +60,7 @@ weight: 100
 <a class="badge badge-light" href="#1">Light</a>
 <a class="badge badge-dark" href="#1">Dark</a>
 
-```xml
+```text/html
 <a class="badge badge-primary" href="#1">Primary</a>
 <a class="badge badge-secondary" href="#1">Secondary</a>
 <a class="badge badge-success" href="#1">Success</a>
@@ -87,7 +87,7 @@ weight: 100
 <span class="badge badge-light badge-pill">130</span>
 <span class="badge badge-dark badge-pill">130</span>
 
-```xml
+```text/html
 <span class="badge badge-pill badge-primary">8</span>
 <span class="badge badge-pill badge-secondary">87</span>
 <span class="badge badge-pill badge-success">999K</span>
@@ -111,7 +111,7 @@ weight: 100
 <span class="badge badge-secondary">Normal Badge</span>
 <span class="badge badge-lg badge-success">Large Badge</span>
 
-```xml
+```text/html
 <span class="badge badge-primary badge-sm">Small Badge</span>
 <span class="badge badge-secondary">Normal Badge</span>
 <span class="badge badge-lg badge-success">Large Badge</span>
@@ -149,7 +149,7 @@ weight: 100
 	</button>
 </span>
 
-```xml
+```text/html
 <span class="badge badge-primary badge-sm">
 	<a href="#1">Small Badge</a>
 	<button aria-label="Close" class="close" type="button">
@@ -192,7 +192,7 @@ weight: 100
 <span class="label label-light">Light</span>
 <span class="label label-dark">Dark</span>
 
-```xml
+```text/html
 <span class="label label-primary">Primary</span>
 <span class="label label-secondary">Secondary</span>
 <span class="label label-success">Success</span>
@@ -244,7 +244,7 @@ weight: 100
 <a class="label label-light" href="#1">Light</a>
 <a class="label label-dark" href="#1">Dark</a>
 
-```xml
+```text/html
 <a class="label label-primary" href="#1">Primary</a>
 <a class="label label-secondary" href="#1">Secondary</a>
 <a class="label label-success" href="#1">Success</a>
@@ -298,7 +298,7 @@ weight: 100
 <span class="label label-secondary">Normal Label</span>
 <span class="label label-lg label-success">Large Label</span>
 
-```xml
+```text/html
 <span class="label label-primary label-sm">Small Label</span>
 <span class="label label-secondary">Normal Label</span>
 <span class="label label-lg label-success">Large Label</span>
@@ -348,7 +348,7 @@ weight: 100
 	</button>
 </span>
 
-```xml
+```text/html
 <span class="label label-primary label-sm">
 	<a href="#1">Small Label</a>
 	<button aria-label="Close" class="close" type="button">
@@ -408,7 +408,7 @@ weight: 100
 <span class="sticker sticker-light">133</span>
 <span class="sticker sticker-dark">133</span>
 
-```xml
+```text/html
 <span class="sticker sticker-primary">133</span>
 <span class="sticker sticker-secondary">133</span>
 <span class="sticker sticker-success">133</span>
@@ -496,7 +496,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="aspect-ratio">
 	<img alt="thumbnail" class="aspect-ratio-item-fluid" src="/images/thumbnail_hot_air_ballon.jpg">
 	<span class="sticker sticker-danger sticker-top-left">PDF</span>
@@ -555,7 +555,7 @@ weight: 100
 <span class="sticker sticker-xl sticker-info">133</span>
 <span class="sticker sticker-xxl sticker-warning">133</span>
 
-```xml
+```text/html
 <span class="sticker sticker-primary sticker-sm">133</span>
 <span class="sticker sticker-secondary">133</span>
 <span class="sticker sticker-lg sticker-success">133</span>
@@ -613,7 +613,7 @@ weight: 100
 	</svg>
 </span>
 
-```xml
+```text/html
 <span class="sticker sticker-xxl sticker-warning">
 	<svg aria-hidden="true" class="lexicon-icon lexicon-icon-magic">
 		<use xlink:href="/vendor/lexicon/icons.svg#magic" />
@@ -749,7 +749,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <button class="btn btn-primary" style="position:relative;">
 	Email
 	<span class="rounded-circle sticker sticker-danger sticker-outside sticker-top-left">133</span>
@@ -864,7 +864,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <span class="sticker sticker-dark">
 	<svg aria-hidden="true" class="lexicon-icon lexicon-icon-picture">
 		<use xlink:href="/vendor/lexicon/icons.svg#picture" />
@@ -933,7 +933,7 @@ weight: 100
 	<img alt="thumbnail" class="img-fluid" src="../../images/thumbnail_typewriter.jpg">
 </span>
 
-```xml
+```text/html
 <span class="rounded-circle sticker sticker-primary sticker-sm">
 	<img alt="thumbnail" class="img-fluid" src="/images/thumbnail_dock.jpg">
 </span>
@@ -960,7 +960,7 @@ weight: 100
 <span class="rounded-circle sticker sticker-primary sticker-xl">WW</span>
 <span class="rounded-circle sticker sticker-success sticker-xxl">TT</span>
 
-```xml
+```text/html
 <span class="rounded-circle sticker sticker-secondary sticker-sm">JB</span>
 <span class="rounded-circle sticker sticker-danger">TT</span>
 <span class="rounded-circle sticker sticker-info sticker-lg">SP</span>

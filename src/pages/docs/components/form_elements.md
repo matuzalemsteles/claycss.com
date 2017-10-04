@@ -33,7 +33,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="form-group">
 	<label>
 		Default text input
@@ -100,7 +100,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="form-check">
 	<label class="form-check-label">
 		<input class="form-check-input" type="checkbox" value="">
@@ -210,7 +210,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="form-check">
 	<label class="form-check-label">
 		<input class="form-check-input" type="radio" value="">
@@ -308,7 +308,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <label for="regularSelectElement">Regular Select Element</label>
 <select class="form-control" id="regularSelectElement">
 	<option>Sample 1</option>
@@ -390,7 +390,7 @@ weight: 100
 	<input id="inputFile" type="file">
 </div>
 
-```xml
+```text/html
 <label class="sr-only" for="inputFile">FILE UPLOAD</label>
 <input id="inputFile" type="file">
 ```
@@ -441,7 +441,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <label class="disabled" for="disabledTextInput">Text Input</label>
 <input class="form-control" disabled id="disabledTextInput" placeholder="Placeholder" type="text" value="Plunger pot, extra siphon latte">
 
@@ -567,7 +567,7 @@ weight: 100
 	</form>
 </div>
 
-```xml
+```text/html
 <form>
 	<fieldset disabled>
 		<div class="form-group">
@@ -601,7 +601,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <label for="readonlyTextInput">Text Input (Read Only)</label>
 <input class="form-control" id="readonlyTextInput" placeholder="Placeholder" readonly type="text" value="Con panna aroma, pumpkin spice to go, wings, aromatic single shot, aged single shot to go extraction java.">
 
@@ -631,7 +631,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <label for="smallTextInput">Small text input</label>
 <input class="form-control form-control-sm" id="smallTextInput" placeholder="Placeholder" type="text">
 
@@ -668,7 +668,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="form-group">
 	<label for="firstNameInput">First Name</label>
 	<input class="form-control" id="firstNameInput" placeholder="First Name" type="text">
@@ -702,7 +702,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="form-inline">
 	<label for="formInlineInput">Form Inline</label>
 	<input class="form-control" id="formInlineInput" type="text">
@@ -775,7 +775,7 @@ weight: 100
 	<a class="btn btn-danger" href="#1">Clear</a>
 </div>
 
-```xml
+```text/html
 <div class="form-inline form-inline-autofit">
 	<div class="form-inline-group">
 		<label for="formInlineAutofitTextInput1">Form Inline Autofit</label>
@@ -833,7 +833,7 @@ weight: 100
 	</form>
 </div>
 
-```xml
+```text/html
 <style>
 	@media (min-width: 576px) {
 		.my-custom-form label {

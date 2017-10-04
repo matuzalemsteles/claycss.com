@@ -15,7 +15,7 @@ weight: 100
 
 > We use SVG elements that link to an SVG sprite, like so:
 
-```xml
+```text/html
 <svg class="lexicon-icon">
 	<use xlink:href="path/to/icons.svg#add-column" />
 </svg>

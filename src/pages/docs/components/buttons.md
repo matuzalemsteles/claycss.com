@@ -20,7 +20,7 @@ weight: 100
 <button class="btn btn-link" type="button">Link</button>
 <button class="btn btn-unstyled" type="button">Unstyled</button>
 
-```xml
+```text/html
 <button class="btn btn-primary" type="button">Primary</button>
 <button class="btn btn-secondary" type="button">Secondary</button>
 <button class="btn btn-info" type="button">Info</button>
@@ -89,7 +89,7 @@ weight: 100
 <button class="active btn btn-link" type="button">Link</button>
 <button class="active btn btn-unstyled" type="button">Unstyled</button>
 
-```xml
+```text/html
 <button class="active btn btn-primary" type="button">Primary</button>
 <button class="active btn btn-secondary" type="button">Secondary</button>
 <button class="active btn btn-info" type="button">Info</button>
@@ -150,7 +150,7 @@ weight: 100
 <button class="btn btn-link" disabled type="button">Link</button>
 <button class="btn btn-unstyled" disabled type="button">Unstyled</button>
 
-```xml
+```text/html
 <button class="btn btn-primary" disabled type="button">Primary</button>
 <button class="btn btn-secondary" disabled type="button">Secondary</button>
 <button class="btn btn-info" disabled type="button">Info</button>
@@ -210,7 +210,7 @@ weight: 100
 <a class="btn btn-dark" href="#1" role="button">Anchor</a>
 <a class="btn btn-link" href="#1" role="button">Anchor</a>
 
-```xml
+```text/html
 <input class="btn btn-primary" type="button" value="Input" />
 <a class="btn btn-secondary" href="#1" role="button">Anchor</a>
 <input class="btn btn-info" type="submit" value="Submit" />
@@ -238,7 +238,7 @@ weight: 100
 <button class="btn btn-outline-light" type="button">Light</button>
 <button class="btn btn-outline-dark" type="button">Dark</button>
 
-```xml
+```text/html
 <button class="btn btn-outline-primary" type="button">Primary</button>
 <button class="btn btn-outline-secondary" type="button">Secondary</button>
 <button class="btn btn-outline-info" type="button">Info</button>
@@ -271,7 +271,7 @@ weight: 100
 <button class="active btn btn-outline-light" type="button">Light</button>
 <button class="active btn btn-outline-dark" type="button">Dark</button>
 
-```xml
+```text/html
 <button class="active btn btn-outline-primary" type="button">Primary</button>
 <button class="active btn btn-outline-secondary" type="button">Secondary</button>
 <button class="active btn btn-outline-info" type="button">Info</button>
@@ -293,7 +293,7 @@ weight: 100
 <button class="btn btn-outline-light" disabled type="button">Light</button>
 <button class="btn btn-outline-dark" disabled type="button">Dark</button>
 
-```xml
+```text/html
 <button class="btn btn-outline-primary" disabled type="button">Primary</button>
 <button class="btn btn-outline-secondary" disabled type="button">Secondary</button>
 <button class="btn btn-outline-info" disabled type="button">Info</button>
@@ -315,7 +315,7 @@ weight: 100
 <a class="btn btn-outline-light" href="#1" role="button">Anchor</a>
 <a class="btn btn-outline-dark" href="#1" role="button">Anchor</a>
 
-```xml
+```text/html
 <input class="btn btn-outline-primary" type="button" value="Input" />
 <a class="btn btn-outline-secondary" href="#1" role="button">Anchor</a>
 <input class="btn btn-outline-info" type="submit" value="Submit" />
@@ -343,7 +343,7 @@ weight: 100
 <button class="btn btn-monospaced btn-dark" type="button">H</button>
 <button class="btn btn-monospaced btn-link" type="button">I</button>
 
-```xml
+```text/html
 <button class="btn btn-monospaced btn-primary" type="button">A</button>
 <button class="btn btn-monospaced btn-secondary" type="button">B</button>
 <button class="btn btn-monospaced btn-info" type="button">C</button>
@@ -424,7 +424,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="dropdown">
 	<button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
 		Primary
@@ -485,7 +485,7 @@ weight: 100
 <button class="btn btn-secondary" type="button">Default</button>
 <button class="btn btn-secondary btn-lg" type="button">Large</button>
 
-```xml
+```text/html
 <button class="btn btn-secondary btn-sm" type="button">Small</button>
 <button class="btn btn-secondary" type="button">Default</button>
 <button class="btn btn-secondary btn-lg" type="button">Large</button>
@@ -520,7 +520,7 @@ weight: 100
 	XL
 </button>
 
-```xml
+```text/html
 <button class="btn btn-monospaced btn-secondary btn-sm" type="button">
 	<svg aria-hidden="true" class="lexicon-icon lexicon-icon-blogs">
 		<use xlink:href="/vendor/lexicon/icons.svg#blogs"></use>
@@ -563,7 +563,7 @@ weight: 100
 <button class="btn btn-block btn-secondary" type="button">Normal Block Level Button</button>
 <button class="btn btn-block btn-lg btn-secondary" type="button">Large Block Level Button</button>
 
-```xml
+```text/html
 <button class="btn btn-block btn-secondary btn-sm" type="button">Small Block Level Button</button>
 <button class="btn btn-block btn-secondary" type="button">Normal Block Level Button</button>
 <button class="btn btn-block btn-lg btn-secondary" type="button">Large Block Level Button</button>

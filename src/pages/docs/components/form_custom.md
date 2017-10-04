@@ -64,7 +64,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="form-group">
 	<label for="customFile1">Attach File</label>
 	<div class="input-group">
@@ -169,7 +169,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="custom-control custom-checkbox">
 	<label>
 		<input class="custom-control-input" type="checkbox">
@@ -275,7 +275,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="custom-control custom-radio">
 	<label>
 		<input checked class="custom-control-input" id="radio1" name="radio" type="radio">
@@ -331,7 +331,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="custom-control custom-control-inline custom-radio">
 	<label>
 		<input class="custom-control-input" disabled id="radioStacked3" name="radio-stacked" type="radio">
@@ -382,7 +382,7 @@ weight: 100
 	</select>
 </div>
 
-```xml
+```text/html
 <select class="custom-select">
 	<option selected="">Open this select menu</option>
 	<option value="1">One</option>
@@ -410,7 +410,7 @@ weight: 100
 	</label>
 </div>
 
-```xml
+```text/html
 <label class="custom-file">
 	<input class="custom-file-input" type="file">
 	<span class="custom-file-control"></span>

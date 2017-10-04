@@ -44,7 +44,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="progress-group">
 	<div class="progress">
 		<div aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="progress-bar" role="progressbar" style="width: 60%;"></div>
@@ -128,7 +128,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="progress-group progress-group-stacked">
 	<div class="progress-group-addon">60% Completed</div>
 	<div class="progress">
@@ -177,7 +177,7 @@ weight: 100
 	<div aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar" role="progressbar" style="width: 100%;">100%</div>
 </div>
 
-```xml
+```text/html
 <div class="progress">
 	<div aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" class="progress-bar" role="progressbar" style="width: 25%;">25%</div>
 </div>
@@ -260,7 +260,7 @@ weight: 100
 	</div>
 </div>
 
-```xml
+```text/html
 <div class="progress-group">
 	<div class="progress">
 		<div aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="progress-bar" role="progressbar" style="width: 60%;"></div>
@@ -361,7 +361,7 @@ weight: 100
 	<div class="progress-bar progress-bar-animated progress-bar-striped" style="width: 10%">10%</div>
 </div>
 
-```xml
+```text/html
 <div class="progress">
 	<div class="bg-success progress-bar progress-bar-striped" style="width: 25%">25%</div>
 	<div class="bg-success progress-bar" style="width: 25%">25%</div>
@@ -414,7 +414,7 @@ weight: 100
 	<div class="progress-group-addon">60%</div>
 </div>
 
-```xml
+```text/html
 <div class="progress">
 	<div aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" class="progress-bar" role="progressbar" style="width: 25%;">25%</div>
 </div>
@@ -440,7 +440,7 @@ weight: 100
 	<div class="progress-group-addon">60%</div>
 </div>
 
-```xml
+```text/html
 <div class="progress progress-lg">
 	<div aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" class="progress-bar" role="progressbar" style="width: 45%;">45%</div>
 </div>
@@ -476,7 +476,7 @@ weight: 100
 	<div aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="bg-danger progress-bar" role="progressbar" style="width: 80%;">80% (Danger)</div>
 </div>
 
-```xml
+```text/html
 <div class="progress">
 	<div aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="bg-success progress-bar" role="progressbar" style="width: 60%;">60% (Success)</div>
 </div>

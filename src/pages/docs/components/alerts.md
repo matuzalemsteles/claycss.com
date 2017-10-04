@@ -256,7 +256,7 @@ weight: 100
 	<strong class="lead">Dark:</strong> This is a <a href="#1" class="alert-link">dark alert</a>.
 </div>
 
-```xml
+```text/html
 <div class="alert alert-dismissible alert-primary" role="alert">
 	<button aria-label="Close" class="close" data-dismiss="alert" type="button">
 		<svg aria-hidden="true" class="lexicon-icon lexicon-icon-times">
@@ -434,7 +434,7 @@ weight: 100
 	<strong class="lead">Dark</strong> This is a <a href="#1" class="alert-link">dark alert</a>.
 </div>
 
-```xml
+```text/html
 <div class="alert alert-fluid alert-primary" role="alert">
 	<strong class="lead">Primary</strong> This is a <a href="#1" class="alert-link">primary alert</a>.
 </div>
@@ -612,7 +612,7 @@ weight: 100
 	<p>Due to inactivity, your session has expired. Please save any data you may have entered before refreshing the page. <a class="alert-link" href="#1">Log in</a></p>
 </div>
 
-```xml
+```text/html
 <div class="alert alert-dismissible alert-notification alert-success" role="alert">
 	<button aria-label="Close" class="close" data-dismiss="alert" type="button">
 		<svg aria-hidden="true" class="lexicon-icon lexicon-icon-times">
